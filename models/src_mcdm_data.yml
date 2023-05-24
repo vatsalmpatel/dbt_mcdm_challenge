@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: mcdm_data_bing
+    schema: dbt_vpatel
+    tables:
+      - name: scr_ads_bing_all_data
