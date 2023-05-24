@@ -1,13 +1,13 @@
 with int_twitter_data as (
     select 
-    '' as ad_id,
+    null as ad_id,
     0 as add_to_cart,
-    '' as adset_id,
+    null as adset_id,
     campaign_id,
     channel,
     clicks,
     comments,
-    '' as creative_id,
+    null as creative_id,
     date,
     engagements,
     impressions,
