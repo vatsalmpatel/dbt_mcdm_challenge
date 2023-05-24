@@ -20,7 +20,8 @@ stg_twitter_all_data as (
     retweets,
     spend,
     video_total_views as total_views,
-    null as creative_id
+    null as creative_id,
+    null as ad_id
 
     from src_twitter_all_data
 )

@@ -1,6 +1,6 @@
 with int_twitter_data as (
     select 
-    null as ad_id,
+    CAST(ad_id as STRING) as ad_id,
     0 as add_to_cart,
     null as adset_id,
     campaign_id,
