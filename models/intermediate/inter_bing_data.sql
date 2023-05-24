@@ -7,7 +7,7 @@ with int_bing_data as (
     channel,
     clicks,
     0 as comments,
-    '' as creative_id,
+    null as creative_id,
     date,
     0 as engagements,
     impressions,
