@@ -1,4 +1,4 @@
-# Marketing common data modelling challenge
+# Vatsal's Marketing common data modelling challenge
 Welcome to Marketing common data modelling challenge!
 
 ## Task
