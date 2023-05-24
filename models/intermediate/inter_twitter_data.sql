@@ -7,7 +7,7 @@ with int_twitter_data as (
     channel,
     clicks,
     comments,
-    null as creative_id,
+    CAST(creative_id as STRING) as creative_id,
     date,
     engagements,
     impressions,

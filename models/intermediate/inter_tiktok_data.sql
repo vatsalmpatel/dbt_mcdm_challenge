@@ -7,7 +7,7 @@ with int_tiktok_data as (
     channel,
     clicks,
     0 as comments,
-    null as creative_id,
+    CAST(creative_id as STRING) as creative_id,
     date,
     0 as engagements,
     impressions,

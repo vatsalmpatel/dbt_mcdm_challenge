@@ -23,7 +23,8 @@ stg_tiktok_all_data as (
     spend,
     conversions,
     skan_conversion,
-    video_views
+    video_views,
+    null as creative_id
 
     from src_tiktok_all_data
 )

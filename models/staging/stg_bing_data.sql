@@ -18,7 +18,8 @@ stg_bing_all_data as (
     imps as impressions,
     revenue,
     spend,
-    conv as total_conversions
+    conv as total_conversions,
+    null as creative_id
 
     from src_bing_all_data
 )
