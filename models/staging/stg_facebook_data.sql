@@ -28,7 +28,7 @@ stg_facebook_all_data as (
     impressions,
     mobile_app_install,
     inline_link_clicks,
-    purchase
+    purchase,
     complete_registration,
     purchase_value,
     shares_2 as shares_new,
