@@ -6,14 +6,14 @@ stg_facebook_all_data as (
     select 
 
     __insert_date as insert_date,
-    ad_id,
+    CAST(ad_id as STRING) as ad_id,
     add_to_cart,
     adset_id,
     campaign_id,
     'Facebook' as channel,
     clicks as clicks_old,
     comments as comments_old,
-    creative_id,
+    CAST(creative_id as STRING) as creative_id,
     creative_title,
     objective,
     buying_type,

@@ -6,7 +6,7 @@ stg_bing_all_data as (
     select 
 
     __insert_date as insert_date,
-    ad_id,
+    CAST(ad_id as STRING) as ad_id,
     adset_id,
     campaign_id,
     'Bing' as channel,
