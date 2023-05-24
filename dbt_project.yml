@@ -38,3 +38,5 @@ models:
       materialized: table
     mart:
       materialized: table
+    intermediate:
+      materialized: table
