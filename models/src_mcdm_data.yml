@@ -5,7 +5,7 @@ sources:
     database: data-mcdm
     schema: dbt_vpatel
     tables:
-      - name: scr_ads_bing_all_data
+      - name: src_ads_bing_all_data
   
   - name: mcdm_data_facebook
     database: data-mcdm
