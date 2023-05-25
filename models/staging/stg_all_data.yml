@@ -5,6 +5,7 @@ models:
     columns: 
       - name: channel
         tests:
+          - not_null
           - accepted_values:
               values:
                 - Bing
@@ -12,6 +13,7 @@ models:
     columns: 
       - name: channel
         tests:
+          - not_null
           - accepted_values:
               values:
                 - Facebook
@@ -19,6 +21,7 @@ models:
     columns: 
       - name: channel
         tests:
+          - not_null
           - accepted_values:
               values:
                 - TikTok Ads
@@ -26,6 +29,7 @@ models:
     columns: 
       - name: channel
         tests:
+          - not_null
           - accepted_values:
               values:
                 - Twitter
