@@ -1,5 +1,49 @@
 version: 2
 
+
+sources:
+  - name: src_all_data_checks
+    database: data-mcdm
+    schema: dbt_vpatel
+    tables:
+      - name: src_ads_tiktok_ads_all_data
+        columns:
+          - name: channel
+            tests:
+              - accepted_values:
+                  values:
+                    - TikTok Ads
+          - name: ad_id
+            tests:
+              - not_null
+      - name: src_ads_bing_all_data
+        columns:
+          - name: channel
+            tests:
+              - accepted_values:
+                  values:
+                    - Bing
+          - name: ad_id
+            tests:
+              - not_null
+      - name: src_ads_creative_facebook_all_data
+        columns:
+          - name: channel
+            tests:
+              - accepted_values:
+                  values:
+                    - Facebook
+          - name: ad_id
+            tests:
+              - not_null
+      - name: src_promoted_tweets_twitter_all_data
+        columns:
+          - name: channel
+            tests:
+              - accepted_values:
+                  values:
+                    - Twitter
+
 models:
   - name: stg_bing_data
     columns: 
